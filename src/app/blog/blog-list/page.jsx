@@ -4,7 +4,7 @@ import './page.css'
 async function fetchAllBlogs(){
 
     try {
-        const  response = await fetch('http://localhost:3000/api/blog/get-all-blogs',{
+        const  response = await fetch('/api/blog/get-all-blogs',{
             cache:'no-store'
         })
     
