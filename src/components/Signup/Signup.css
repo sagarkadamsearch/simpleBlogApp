@@ -1,0 +1,119 @@
+
+*{
+    box-sizing: border-box;
+}
+.login-logout-Component{
+    max-width: 500px;
+    width: 500px;
+    background-color: antiquewhite;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.login-logout-Component label{
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.login-logout-Component input{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding:15px 0px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-size: clamp(10px,1.25vw,15px);
+    outline: none;
+}
+
+.login-logout-Component input:hover{
+    outline:1px solid  #fb8332; 
+}
+
+.login-logout-Component-loginBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-logout-Component-loginBtn button{
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    border-radius: 15px;
+}
+
+.login-logout-Component-loginBtn button:hover,
+.login-logout-Component-loginBtn button:focus{
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.login-logout-Component-loginBtn button:hover{
+transform: translateY(-1px);
+}
+.login-logout-Component-loginBtn button:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.login-logout-Component-password{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.login-logout-Component-password .eye{
+    position: absolute;
+    right: 20px;
+}
+.login-logout-Component-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.login-logout-Component-grid div{
+  width: 100%;
+}
+
+.login-logout-Component-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.login-logout-Component-text span {
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+

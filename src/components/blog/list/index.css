@@ -1,0 +1,21 @@
+.blog-list-component{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.blog-list-component .blog-div{
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+border: 1px solid rgb(255, 12, 12);
+}
+
+.blog-div-btn{
+    border: 1px solid red;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
